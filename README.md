@@ -1,6 +1,12 @@
 # apple_color_Classification
-A software that can let you get apple's red color percent.
-
+这个软件是我毕设的项目，对黑背景下苹果的图像进行处理，提取苹果轮廓和红色部分，算出红色部分占总面积的百分比，进行分级。
 python version 3.7
 opencv version 3.4.2.16
+
+交互界面用的tkinter写的，可以进行动态调试，你可以在软件中自己导入图片也可以从摄像头获取图片。
+里面写了一些预处理操作和形态学操作的动态调试，打开调试开关后调制参数可以看到参数变化多图像处理的影响，
+对刚接触图像处理和刚学习使用opencv的人可能会有一些帮助。
+
+
+
 
